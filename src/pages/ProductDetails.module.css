@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    width: 100%;
+    direction: rtl;
+    background-color: #fff;
+    border: 2px dashed #463da4;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.container img {
+    width: 480px;
+    height: 480px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 20px;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.information h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    direction: ltr;
+    text-align: right;
+    border-bottom: 1px solid #c7c8cca4;
+    padding: 0 0 20px 0;
+    /* width: fit-content; */
+}
+
+.price {
+    margin: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #c7c8cca4;
+    padding: 0 0 20px 0;
+}
+
+.price span {
+    font-size: 1.2rem;
+    margin-left: 30px;
+    color: #707079;
+}
+
+.price h4 {
+    font-size: 1.25rem;
+}
+
+.size {
+    margin: 20px 0;
+}
+
+.size span {
+    font-size: 1.2rem;
+    margin-left: 30px;
+    color: #707079;
+}
+
+.size select {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.size option {
+    font-size: 1rem;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    direction: rtl;
+    margin: 45px 0 0 0;
+}
+
+.box {
+    background: none;
+    border: 1px solid #E3E1D9;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.action button {
+    background: none;
+    border: 1px solid #E3E1D9;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+    font-size: 1.3rem;
+}
+
+.button button:hover {
+    transform: scale(1.06);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button button span {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #c7c8cca4;
+    padding: 20px 0 0 0;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 1.11rem;
+    font-weight: 600;
+    color: #8D72E1;
+}
+
+.links a svg {
+    font-size: 30px;
+}
+
+.links a:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    border: 1px solid #c7c8cca4;
+}

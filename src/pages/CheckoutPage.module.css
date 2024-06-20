@@ -1,0 +1,56 @@
+.title {
+    direction: rtl;
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding-right: 20px;
+}
+
+.title h3 {
+    font-size: 1.7rem;
+}
+
+.message {
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.message div {
+    font-size: 1.2rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    justify-content: end;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 1.11rem;
+    font-weight: 600;
+    color: #8D72E1;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.table {
+    direction: rtl;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table thead {
+    border-bottom: 2px solid #C7C8CC;
+}
+
+.table th {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 0;
+}

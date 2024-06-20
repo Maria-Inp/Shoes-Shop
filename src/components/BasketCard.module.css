@@ -1,0 +1,39 @@
+tr {
+    text-align: center;
+    height: 80px;
+    border-bottom: 2px dashed #C7C8CC;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+    direction: ltr;
+    font-size: 1rem;
+}
+
+td img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+td button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid #E3E1D9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+    font-size: 1.3rem;
+    width: 40px;
+    height: 40px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
